@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Images/snowflake.ico" sizes="16x16">
+    <link rel="icon" type="image/x-icon" href="Images/snowflake.ico" sizes="32x32">
+
+    <title>Sahil Andhare</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="https://ben-blance.github.io/Portfolio/portfolio.html">Sahil Andhare</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#features">SKILLS</a></li>
+            <li><a href="#contact-page">CONTACT</a></li>
+        
+        </ul>
+        <div class="nav-icons">
+            <div class="language-switch">
+                <button class="lang-btn active">EN</button>
+                <button class="lang-btn">JP</button>
+            </div>
+            <a href="https://www.linkedin.com/in/sahil-andhare" class="icon"><img src="Images/linkedin.png" alt="Notifications"></a>
+            <a href="#profile" class="icon"><img src="Images/github.png" alt="User Profile"></a>
+        </div>
+    </nav>
+
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Sahil Andhare</h1>
+            <h3>Full Stack Dev</h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="header">
+            <h1 style="font-size: 14px;">sahilandhare2004@gmail.com</h1>
+            <a  href="resume.pdf" >Hire Me</a>
+        </div>
+
+        <div class="card">
+            
+            <div class="info">
+                <h1>It's Sahil</h1>
+                <p>
+                    I'm a third-year Computer Science student with a knack for full-stack development and a taste for innovation. Proficient in Nakama-script, C++, Python, HTML, CSS, JavaScript, and Flutter, I create solutions that are as creative as they are functional. From crafting custom interpreted languages to designing sleek Flutter apps like Cipher-Guard, I turn ideas into reality. Recently, I wrapped up the TONI AI project and am diving into new languages like ZIG. Always pushing the tech boundaries and committed to continuous learning. Ready to build something amazing? Let’s get started.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="header">
+            <h1 style="font-size: 14px;">Features</h1>
+            <a href="https://github.com/ben-blance">Projects</a>
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-devices'></i>
+                    <h1>Front-End</h1>
+                    <p>
+                        Expertise in crafting intuitive user interfaces using HTML, CSS, and JavaScript, along with proficiency in popular front-end frameworks like React and Angular. Skilled in creating responsive designs and seamless user experiences across various platforms and devices.
+                      </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bx-code-alt'></i>
+
+                    <h1>Back-End</h1>
+                    <p>
+                      Behind the scenes, Experienced in server-side development with Node.js, Python (Django), or Java and frameworks like Express.js or Django. Proficient in database design, complex logic, and data security. Experienced in third-party service integration and server-side optimization.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-component'></i>
+                    <h1>DevOps</h1>
+                    <p>
+                        Experienced in deploying web applications on cloud platforms like AWS, Heroku, and Firebase, managing CI/CD pipelines for automated deployment, and implementing containerization with Docker and infrastructure as code using Terraform or CloudFormation for scalable deployments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id = "contact-page">
+    <div class="contact-content">
+        <h1>Let's Connect</h1>
+        <p>Got an idea or need some tech magic? Fill out the form below, and I'll get back to you in no time.</p>
+        <form action="https://formspree.io/f/xblrrdbj" method="post">
+            <input type="email" name="email" placeholder="Your email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Leave us a message" required></textarea>
+            <button type="submit">SEND ➤</button>
+        </form>
+    </div>
+    </section>
+
+    
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
