@@ -101,3 +101,63 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+
+window.addEventListener('scroll', function () {
+    var scrollTopButton = document.querySelector('.scroll-top');
+    if (this.window.pageYOffset > 200) {
+        scrollTopButton.style.display = 'block';
+    } else {
+        scrollTopButton.style.display = 'none';
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelector(".nav-links");
+    const burger = document.createElement("div");
+    burger.classList.add("burger");
+    burger.innerHTML = '<div></div><div></div><div></div>';
+    document.querySelector(".navbar").appendChild(burger);
+
+    burger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+});
+
+
+const phrases = ["Sahil Andhare", "Future Billionaire", "humanitarian", "Genius?", "Scroll down now"];
+        const typewriterElement = document.getElementById('typewriter');
+        const speed = 100; // typing speed in milliseconds
+        let phraseIndex = 0;
+
+        function typeWriter() {
+            let index = 0;
+            const text = phrases[phraseIndex];
+
+            function typeCharacter() {
+                if (index < text.length) {
+                    typewriterElement.innerHTML += text.charAt(index);
+                    index++;
+                    setTimeout(typeCharacter, speed);
+                } else {
+                    setTimeout(eraseText, 2000); // wait before erasing
+                }
+            }
+
+            function eraseText() {
+                if (index > 0) {
+                    typewriterElement.innerHTML = text.substring(0, index - 1);
+                    index--;
+                    setTimeout(eraseText, speed / 2); // erasing speed
+                } else {
+                    phraseIndex = (phraseIndex + 1) % phrases.length; // move to the next phrase
+                    setTimeout(typeWriter, 500); // wait before typing the next phrase
+                }
+            }
+
+            typeCharacter();
+        }
+
+        typeWriter(); // Start the typing effect
+
+
+
