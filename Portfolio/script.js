@@ -102,28 +102,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-window.addEventListener('scroll', function () {
-    var scrollTopButton = document.querySelector('.scroll-top');
-    if (this.window.pageYOffset > 200) {
-        scrollTopButton.style.display = 'block';
-    } else {
-        scrollTopButton.style.display = 'none';
-    }
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-    const navLinks = document.querySelector(".nav-links");
-    const burger = document.createElement("div");
-    burger.classList.add("burger");
-    burger.innerHTML = '<div></div><div></div><div></div>';
-    document.querySelector(".navbar").appendChild(burger);
-
-    burger.addEventListener("click", () => {
-        navLinks.classList.toggle("active");
-    });
-});
-
-
 const phrases = ["Sahil Andhare", "Future Billionaire", "humanitarian", "Genius?", "Scroll down now"];
         const typewriterElement = document.getElementById('typewriter');
         const speed = 100; // typing speed in milliseconds
