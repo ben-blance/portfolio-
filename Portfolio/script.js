@@ -102,7 +102,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-const phrases = ["Sahil Andhare", "Future Billionaire", "humanitarian", "Genius?", "Scroll down now"];
+const phrases = [
+  "Sahil Andhare", 
+  "Tech Enthusiast", 
+  "Curious Learner", 
+  "Scroll for more!"
+];
+
+
         const typewriterElement = document.getElementById('typewriter');
         const speed = 100; // typing speed in milliseconds
         let phraseIndex = 0;
