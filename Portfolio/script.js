@@ -104,8 +104,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const phrases = [
   "Sahil Andhare", 
-  "Tech Enthusiast", 
-  "Curious Learner", 
+  "80% Creative", 
+  "20% weird", 
   "Scroll for more!"
 ];
 
