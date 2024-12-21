@@ -13,16 +13,15 @@
 </head>
 
 <body>
-
     <nav class="navbar">
         <div class="logo">
             <a href="https://ben-blance.github.io/portfolio-/Portfolio/portfolio.html">Sahil Andhare</a>
         </div>
         <ul class="nav-links">
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#features">SKILLS</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#contact-page">CONTACT</a></li>        
+            <li><a href="#about" data-translate="about">ABOUT</a></li>
+            <li><a href="#features" data-translate="skills">SKILLS</a></li>
+            <li><a href="#projects" data-translate="projects">PROJECTS</a></li>
+            <li><a href="#contact-page" data-translate="contact">CONTACT</a></li>        
         </ul>
         <div class="nav-icons">
             <div class="language-switch">
@@ -37,175 +36,112 @@
     <header>
         <div id="particles"></div>
         <div class="info-text">
-        <div id = "typewriter" class="typing-effect">
-            
-        </div>
-            <h3>Full Stack Dev</h3>
+            <div id="typewriter" class="typing-effect"></div>
+            <h3 data-translate="fullStackDev">Full Stack Dev</h3>
             <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
         </div>
     </header>
 
     <section id="about">
         <div class="header">
-            <h1 style="font-size: 14px;">sahilandhare2004@gmail.com</h1>
-            <a  href="resume.pdf" >Hire Me</a>
+          <h1 style="font-size: 14px;">sahilandhare2004@gmail.com</h1>
+            <a href="resume.pdf" data-translate="hireMe">Hire Me</a>
         </div>
 
         <div class="card">
-            
             <div class="info">
                 <h1>It's Sahil</h1>
-                <p>
-                    I'm a third-year Computer Science student with a knack for full-stack development and a taste for innovation. Proficient in Nakama-script, C++, Python, HTML, CSS, JavaScript, and Flutter, I create solutions that are as creative as they are functional. From crafting custom interpreted languages to designing sleek Flutter apps like Cipher-Guard, I turn ideas into reality. Recently, I wrapped up the TONI AI project and am diving into new languages like ZIG. Always pushing the tech boundaries and committed to continuous learning. Ready to build something amazing? Let’s get started.
-                </p>
+                <p data-translate="aboutText">I'm a third-year Computer Science student with a knack for full-stack development and a taste for innovation. Proficient in Nakama-script, C++, Python, HTML, CSS, JavaScript, and Flutter, I create solutions that are as creative as they are functional. From crafting custom interpreted languages to designing sleek Flutter apps like Cipher-Guard, I turn ideas into reality. Recently, I wrapped up the TONI AI project and am diving into new languages like ZIG. Always pushing the tech boundaries and committed to continuous learning. Ready to build something amazing? Let's get started.</p>
             </div>
         </div>
     </section>
 
     <section id="features">
         <div class="header">
-            <h1 style="font-size: 14px;">Features</h1>
-            <a href="https://github.com/ben-blance">Projects</a>
+            <h1 data-translate="features">Features</h1>
+            <a href="https://github.com/ben-blance" data-translate="projects">Projects</a>
         </div>
         <div class="feature-cards">
             <div class="card">
                 <div class="info">
                     <i class='bx bxs-devices'></i>
-                    <h1>Front-End</h1>
-                    <p>
-                        Expertise in crafting intuitive user interfaces using HTML, CSS, and JavaScript, along with proficiency in popular front-end frameworks like React and Angular. Skilled in creating responsive designs and seamless user experiences across various platforms and devices.
-                      </p>
+                    <h1 data-translate="frontEnd">Front-End</h1>
+                    <p data-translate="frontEndText">Expertise in crafting intuitive user interfaces using HTML, CSS, and JavaScript, along with proficiency in popular front-end frameworks like React and Angular. Skilled in creating responsive designs and seamless user experiences across various platforms and devices.</p>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
                     <i class='bx bx-code-alt'></i>
-
-                    <h1>Back-End</h1>
-                    <p>
-                      Behind the scenes, Experienced in server-side development with Node.js, Python (Django), or Java and frameworks like Express.js or Django. Proficient in database design, complex logic, and data security. Experienced in third-party service integration and server-side optimization.
-                    </p>
+                    <h1 data-translate="backEnd">Back-End</h1>
+                    <p data-translate="backEndText">Behind the scenes, Experienced in server-side development with Node.js, Python (Django), or Java and frameworks like Express.js or Django. Proficient in database design, complex logic, and data security. Experienced in third-party service integration and server-side optimization.</p>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
                     <i class='bx bxs-component'></i>
-                    <h1>DevOps</h1>
-                    <p>
-                        Experienced in deploying web applications on cloud platforms like AWS, Heroku, and Firebase, managing CI/CD pipelines for automated deployment, and implementing containerization with Docker and infrastructure as code using Terraform or CloudFormation for scalable deployments.
-                    </p>
+                    <h1 data-translate="devOps">DevOps</h1>
+                    <p data-translate="devOpsText">Experienced in deploying web applications on cloud platforms like AWS, Heroku, and Firebase, managing CI/CD pipelines for automated deployment, and implementing containerization with Docker and infrastructure as code using Terraform or CloudFormation for scalable deployments.</p>
                 </div>
             </div>
         </div>
     </section>
 
-</section>
-<section id="projects">
-  <p class="section__text__p1">Browse My Recent</p>
-  <h1 class="title">Projects</h1>
-  <div class="experience-details-container">
-    <div class="about-containers">
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img
-            src="Images/project-1.png"
-            alt="Project 1"
-            class="project-img"
-          />
+    <section id="projects">
+        <p class="section__text__p1" data-translate="browseRecent">Browse My Recent</p>
+        <h1 class="title" data-translate="projectsTitle">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="Images/project-1.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">ink'S</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ben-blance/inkS'" data-translate="github">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://ink-s-6c804.web.app/inks.html'" data-translate="liveDemo">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="Images/project-2.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Super Tic-Tac-Toe</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ben-blance/Super-Tic-Tac-Toe'" data-translate="github">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://ben-blance.github.io/Super-Tic-Tac-Toe/super/super.html'" data-translate="liveDemo">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="Images/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Windows Auto UnZp</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ben-blance/UnZp'" data-translate="github">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://ben-blance.github.io/unzp_site/UnZp.html'" data-translate="liveDemo">Live Demo</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h2 class="experience-sub-title project-title">ink'S</h2>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/ben-blance/inkS'"
-          >
-            Github
-          </button>
-          <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://ink-s-6c804.web.app/inks.html'"
-          >
-            Live Demo
-          </button>
-        </div>
-      </div>
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img
-            src="Images/project-2.png"
-            alt="Project 2"
-            class="project-img"
-          />
-        </div>
-        <h2 class="experience-sub-title project-title">Super Tic-Tac-Toe</h2>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/ben-blance/Super-Tic-Tac-Toe'"
-          >
-            Github
-          </button>
-          <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://ben-blance.github.io/Super-Tic-Tac-Toe/super/super.html'"
-          >
-            Live Demo
-          </button>
-        </div>
-      </div>
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img
-            src="Images/project-3.png"
-            alt="Project 3"
-            class="project-img"
-          />
-        </div>
-        <h2 class="experience-sub-title project-title">Windows Auto UnZp</h2>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/ben-blance/UnZp'"
-          >
-            Github
-          </button>
-          <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://ben-blance.github.io/unzp_site/UnZp.html'"
-          >
-            Live Demo
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <img
-    src="Images/arrow.png"
-    alt="Arrow icon"
-    class="icon arrow"
-    onclick="location.href='#contact-page'"
-  />
-</section>
-    <section id = "contact-page">
-    <div class="contact-content">
-        <h1>Let's Connect</h1>
-        <p>Got an idea or need some tech magic? Fill out the form below, and I'll get back to you in no time.</p>
-        <form action="https://formspree.io/f/xblrrdbj" method="post">
-            <input type="email" name="email" placeholder="Your email" required>
-            <input type="text" name="subject" placeholder="Subject" required>
-            <textarea name="message" placeholder="Leave us a message" required></textarea>
-            <button type="submit">SEND ➤</button>
-        </form>
-    </div>
+        <img src="Images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact-page'" />
     </section>
 
-    
+    <section id="contact-page">
+        <div class="contact-content">
+            <h1 data-translate="letsConnect">Let's Connect</h1>
+            <p data-translate="contactText">Got an idea or need some tech magic? Fill out the form below, and I'll get back to you in no time.</p>
+            <form action="https://formspree.io/f/xblrrdbj" method="post">
+                <input type="email" name="email" data-translate="email" placeholder="Your email" required>
+                <input type="text" name="subject" data-translate="subject" placeholder="Subject" required>
+                <textarea name="message" data-translate="message" placeholder="Leave us a message" required></textarea>
+                <button type="submit" data-translate="send">SEND ➤</button>
+            </form>
+        </div>
+    </section>
 
     <button class="scroll-top" onclick="scrollToTop()">
         <i class='bx bxs-up-arrow'></i>
     </button>
-
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
