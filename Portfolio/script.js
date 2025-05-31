@@ -1,4 +1,4 @@
-// Particles.js Configuration
+// Particles.js Configurationnnn
 particlesJS("particles", {
     particles: {
         number: {
