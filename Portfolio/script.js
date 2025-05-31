@@ -206,6 +206,9 @@ function typeWriter() {
         clearTimeout(currentTimeout);
     }
     
+    // Clear the element content at the start - THIS IS THE FIX
+    typewriterElement.innerHTML = '';
+    
     let index = 0;
     const text = window.phrases[phraseIndex];
     isTyping = true;
